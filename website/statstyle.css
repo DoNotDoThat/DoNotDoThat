@@ -1,0 +1,111 @@
+h1{color:#33CCFF;text-align:center;padding-top:20px}
+p{color:blue;text-align:center;}
+a{color:blue; text-decoration: none;}
+
+#description{font-size:20px;color:black;}
+
+#logo{padding-left:10px;}
+
+
+#yrs{float:left;
+	 padding-left:18px;
+	 padding-right:20px;}
+
+#first-column {
+display: inline-block;
+float: left;
+width: 60%;
+box-sizing: border-box;
+}
+
+#second-column {
+display: inline-block;
+float: right;
+width: 25%;
+
+box-sizing: border-box;
+}
+
+#container {
+display: block;
+margin: 0 auto;
+width: 50%;
+}
+
+#twitter-link {
+	float: right;
+	font-size:20px;
+}
+
+#left-border {
+    width: 240px;
+    height: 1500px;
+    background-color: #A80000 ;
+    box-shadow: 10px -0.2px #300000 ;
+	float:left;
+}
+#right-border {
+    width: 240px;
+    height: 1500px;
+    background-color: #A80000;
+    box-shadow: -10px -0.2px #300000 ;
+	float:right;
+}
+
+#header{padding-top:295px;
+padding-left:200px;
+    margin-left:70px;
+	font-size:20px;}
+
+#header2{padding-top:150px;
+padding-left:200px;
+    margin-left:70px;
+	font-size:20px;}
+	
+#graph{padding-top:20px;
+	   padding-left:190px;
+	   margin-left:70px;}
+
+	   
+#graphsec2{padding-top:20px;
+	   padding-left:190px;
+	   margin-left:70px;}
+
+#graph1{float:right;
+padding-right:15px}
+
+#graph3{float:right;
+padding-right:15px}
+	   
+#nav {
+	display:block;
+	width: 100%;
+	padding-bottom: 5px;
+	padding-left:500px;
+	  margin-left:70px;
+	  margin-top:-10px;
+	  height:10px;}
+
+
+.nav-item {
+	background-color:#A80000;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:10px;
+	float: left;
+	padding-left:8px;
+	padding-bottom:8px;
+	padding-right:8px;
+}
+
+.nav-link {
+	color: #FFFFFF;
+}
+
+.nav-link:hover {
+	color: black;
+}
+
+.nav-item:hover{
+ color:#000000;
+}
