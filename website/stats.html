@@ -40,17 +40,19 @@
 
 
 <div id="graph"> 
-	<iframe width="405" height="260" style="border: 1px solid #cccccc;" src="http://api.thingspeak.com/channels/14820/charts/1?width=450&height=260&results=60&dynamic=true" ></iframe>
-	<div  id=graph1><iframe width="405" height="260" style="border: 1px solid #cccccc;" src="http://api.thingspeak.com/channels/14820/charts/2?width=450&height=260&timescale=30&results=60&dynamic=true" ></iframe></div>
-</div>
+	<iframe width="405" height="260" style="border: 1px solid #cccccc;" src="http://api.thingspeak.com/channels/14820/charts/1?width=450&height=260&timescale=10&results=60&dynamic=true&title=Knife%20Threats" ></iframe><div  id=graph1>
+	<iframe width="405" height="260" style="border: 1px solid #cccccc;" src="http://api.thingspeak.com/channels/14820/charts/2?width=450&height=260&timescale=10&results=60&dynamic=true&title=Gun%20Threats" ></iframe></div>
 </div>
 
 <div id="graphsec2"> 
-	<iframe width="405" height="260" style="border: 1px solid #cccccc;" src="http://api.thingspeak.com/channels/14820/charts/3?"></iframe>
-	<div  id=graph3><iframe width="405" height="260" style="border: 1px solid #cccccc;" <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="http://api.thingspeak.com/channels/14820/charts/4?" ></iframe></div>
+	<iframe width="405" height="260" style="border: 1px solid #cccccc;" src="http://api.thingspeak.com/channels/14820/charts/3?width=450&height=260&timescale=10&results=60&dynamic=true&title=Murder%20Threats" >
+	</iframe>
+	<div  id=graph3>
+	<iframe width="405" height="260" style="border: 1px solid #cccccc;" src="http://api.thingspeak.com/channels/14820/charts/4?width=450&height=260&timescale=10&results=60&dynamic=true&title=Assault%20Threats" ></iframe></div>
 </div>
-</div>
-
+<div id="graphsec3"> 
+	<center><iframe id="frame"  width="450" height="260" style="border: 1px solid #cccccc;" src="http://api.thingspeak.com/channels/14820/charts/6?width=450&height=260&timescale=10&results=60&dynamic=true&title=Self-Harm%20Tweets" ></iframe>
+	</center></div>
 
 </body>
 </html>

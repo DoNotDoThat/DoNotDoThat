@@ -70,6 +70,12 @@ padding-left:200px;
 #graphsec2{padding-top:20px;
 	   padding-left:190px;
 	   margin-left:70px;}
+	   
+#graphsec3{padding-top:20px;
+	   padding-left:190px;
+	   margin-left:70px;
+	   margin:auto;
+	   vertical-align:middle;}
 
 #graph1{float:right;
 padding-right:15px}
