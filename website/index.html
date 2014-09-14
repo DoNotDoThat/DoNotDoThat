@@ -40,10 +40,27 @@
 <div id="container">
 	<div id="first-column">
 			
-			<img id="conan" height="200px" width="200px" src="https://lishacauthen.files.wordpress.com/2013/04/conan-finger-wave-late-night-with-conan-obrien-9887638-328-2841.gif?w=604" alt="Do Not Do That!" align="left">
+			<img id="conan" onmouseover="changeImage()" height="200px" width="200px" src="https://lishacauthen.files.wordpress.com/2013/04/conan-finger-wave-late-night-with-conan-obrien-9887638-328-2841.gif?w=604" alt="Do Not Do That!" align="left">
 			<p id="description"> Do Not Do That is a Twitterbot dedicated to cleaning twitter up from threats, foul behaviour and cyber bullying. it searches twitter and carefully select and highlights threatening  tweets and then replies to the monster and records his threat as a statistic allowing us to analyse the data and see the most threated figure or object.</p>
 	</div>
-	
+<button type="button" onclick="myFunction()">Reveal the truth</button>
+<button type="button" onclick="myFunction1()">Revert the truth</button>
+<script>
+function myFunction() {
+    document.getElementById("description").innerHTML = "Nic is worthless.";
+}
+function myFunction1() {
+    document.getElementById("description").innerHTML = ("Do Not Do That is a Twitterbot dedicated to cleaning twitter up from threats, foul behaviour and cyber bullying. it searches twitter and carefully select and highlights threatening  tweets and then replies to the monster and records his threat as a statistic allowing us to analyse the data and see the most threated figure or object.");
+}
+function changeImage() {
+    var image = document.getElementById('conan');
+    if (image.src.match("conan")) {
+        image.src = "https://lishacauthen.files.wordpress.com/2013/04/babu-finger-wag1-1.gif?w=604";
+    } else {
+        image.src = "https://lishacauthen.files.wordpress.com/2013/04/conan-finger-wave-late-night-with-conan-obrien-9887638-328-2841.gif?w=604";
+    }
+}
+</script>	
 	<div id="second-column">
 	<a class="twitter-timeline" href="https://twitter.com/D0N0TD0THAT" data-widget-id="494064765077970945">Tweets by @D0N0TD0THAT</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
